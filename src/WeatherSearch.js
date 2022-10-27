@@ -48,6 +48,12 @@ export default function WeatherSearch() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
+        <p>
+          <a href="https://github.com/Maryna-Zeinalova/weather-app">
+            Open-source code
+          </a>
+          , by Maryna Zeinalova
+        </p>
       </div>
     );
   } else {
